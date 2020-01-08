@@ -1,0 +1,112 @@
+@media screen {	
+	*{
+		font-family: 'Montserrat', sans-serif;
+	}
+	p{
+		margin-left: 10px;
+	}
+		input{
+			width: 100px;
+			height: 25px;
+			text-align: center;
+		}
+		label {
+			margin-left: 10px;
+		}
+		.input {
+			background: green;
+			margin: auto;
+			display: block;
+			text-align: center;
+			width:500px;
+		}
+		.input1
+		{
+			display: block;
+			margin: auto;
+			font-size: 30px;
+			height: 50px;
+    		line-height: 50px;
+    		position: relative;
+    		border: 1px solid black;
+    		padding: 0 1rem;
+		}
+		body{
+		background-image: url(m9_2.png);
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: contain;
+	}
+	.dopomoga{
+			display: block;
+			background: #66CDAA;
+			margin: auto;
+			width:850px;
+
+	}
+	.input2 
+	{
+		font-size: 20px;
+		margin: auto;
+		display: block;
+		height: 50px;
+		width: 200px;
+
+	}
+	.output{
+		font-size: 20px;
+		margin: auto;
+		display: block;
+		height: 50px;
+		width: 300px;
+		font-size: 30px;
+	}
+  	ul.nav {
+
+        list-style: none;
+        text-align: center;
+        align-items: center;
+        text-align:center;
+    	align-items: center;
+        display:table;
+	}
+	.nav li{
+
+		border: 2px solid black;
+		text-align: center;
+		align-items: center;
+		display:table-cell;
+  		text-align:center;
+ 		padding:3px 10px;
+ 		display:inline-block;
+	}
+	ul.nav a {
+		display: inline-block;
+
+        width: 11.2em;
+        margin: 0 5px;
+        background-color: #f4f4f4;
+        text-decoration: none;
+        color: #333;
+        text-align: center;
+        align-items: center;
+        display:table-cell;
+        height: 30px;
+	}
+	ul.nav a:hover {
+		background-color: #333;
+        color: #f4f4f4;
+        text-align: center;
+        align-items: center;
+                display:table-cell;
+	}
+	h1 {
+		text-align: center;
+	}
+	#calc 
+	{
+		width: 130px;
+		height: 40px;
+		margin-left: 10px;
+	}
+}

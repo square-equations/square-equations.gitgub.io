@@ -1,0 +1,94 @@
+@media screen {
+
+	body{
+		background-image:url(m9.png);
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+	}
+	p
+	{
+		margin-left: 7px;
+	}
+	.difiniton{
+		display:block;
+		margin:auto;
+		background-color:#FFA07A;
+	}
+	.formulas{
+
+		display:block;
+		margin:auto;
+		border: 2px solid #FF0004;
+	}
+	.vipadok {
+		display:block;
+		margin:auto;
+		background-color:#FFA07A;
+	}
+	header {
+    display: block;
+    background-image:url(shapka2.jpg);
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-size: cover;	
+	  background-size: cover;
+   }
+	   .header-bg {
+	background-image:url(shapka2.jpg);
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-size: cover;	
+	margin-left: auto;
+    margin-right: auto;
+    margin-top: -720px;
+	width: 100%;
+	height: 720px;
+	}
+	   .header-bg img {
+    position: fixed;
+	background-repeat: no-repeat;
+   }
+   	ul.nav {
+
+        list-style: none;
+        text-align: center;
+        align-items: center;
+        text-align:center;
+    	align-items: center;
+        display:table;
+	}
+	.nav li{
+
+		border: 2px solid black;
+		text-align: center;
+		align-items: center;
+		display:table-cell;
+  		text-align:center;
+ 		padding:3px 10px;
+ 		display:inline-block;
+	}
+	ul.nav a {
+		display: inline-block;
+
+        width: 11.2em;
+        margin: 0 5px;
+        background-color: #f4f4f4;
+        text-decoration: none;
+        color: #333;
+        text-align: center;
+        align-items: center;
+        display:table-cell;
+        height: 30px;
+	}
+	ul.nav a:hover {
+		background-color: #333;
+        color: #f4f4f4;
+        text-align: center;
+        align-items: center;
+                display:table-cell;
+	}
+}	
+.header{
+	color: #CD5C5C;
+}

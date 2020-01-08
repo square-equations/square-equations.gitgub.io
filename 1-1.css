@@ -1,0 +1,73 @@
+@media screen {
+	p
+	{
+		margin-left: 5px;
+	}
+	body{
+		background-image: url(m9_2.png);
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: contain;
+	}
+	.definition{
+		background-color: #FFA07A;	
+	}
+	.formulas{
+		display: block;
+		margin:auto;
+		border: 2px solid #FF0004;
+	}
+	  header {
+    display: block;
+    background-image:url(shapka1.jpg);
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-size: cover;	
+    background-size: cover;
+    margin-bottom: none;
+   }
+   	ul.nav {
+
+        list-style: none;
+        text-align: center;
+        align-items: center;
+        text-align:center;
+    	align-items: center;
+        display:table;
+	}
+	.nav li{
+
+		border: 2px solid black;
+		text-align: center;
+		align-items: center;
+		display:table-cell;
+  		text-align:center;
+ 		padding:3px 10px;
+ 		display:inline-block;
+	}
+	ul.nav a {
+		display: inline-block;
+
+        width: 11.2em;
+        margin: 0 5px;
+        background-color: #f4f4f4;
+        text-decoration: none;
+        color: #333;
+        text-align: center;
+        align-items: center;
+        display:table-cell;
+        height: 30px;
+	}
+	ul.nav a:hover {
+		background-color: #333;
+        color: #f4f4f4;
+        text-align: center;
+        align-items: center;
+                display:table-cell;
+	}
+
+
+}
+.header{
+	color: #CD5C5C;
+}

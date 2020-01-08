@@ -1,0 +1,145 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<meta charset="utf-8">
+	<title></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="addition-style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,900&display=swap&subset=cyrillic,cyrillic-ext" rel="stylesheet">
+</head>
+<body>
+	<center><ul class="nav">
+		<li><a href="index.html">Головна сторiнка</a></li>
+		<li><a href="1.1.html">Роздiл 1.1</a></li>
+		<li><a href="1.2.html">Роздiл 1.2</a></li>
+		<li><a href="1.3.html">Роздiл 1.3</a></li>
+		<li><a href="2.1.html">Роздiл 2.1</a></li>
+		<li><a href="2.2.html">Роздiл 2.2</a></li>
+		<li><a href="test.html">Додаток</a></li>
+	</ul></center>
+	<br />
+	<br />
+	<br />
+	<br />
+			<form>
+<div class="form-group">
+			<h1 class = "input" align="center">ВИРІШИВ ПЕРЕВІРИТИ СЕБЕ? ТОДІ РОЗПОЧНЕМО!</h1>
+			<br />
+			<p><font face="Georgia" size = "+2">  1) Знайдіть усі значення а, при яких рівняння x<small><sup>2</small></sup>-3ax+9=0 має два різні корені. Відповідь запишіть через кому:</font></p>
+			<label>
+					Відповідь: 
+					<input type = text name = "answ" />
+					</label>
+					<br />
+					<br />
+			<p><font face="Georgia" size = "+2">  2) Знайдіть усі значення а, при яких рівняння x<small><sup>2</small></sup>+(a-6)x+36 = 0 не має коренів. Відповідь запишіть через кому:</font></p>
+			<label>	
+			Відповідь:
+					<input type = text name = "answ1" />
+					</label>
+					<br />
+					<br />	
+			<p><font face="Georgia" size = "+2">  3) Знайдіть усі значення а, при яких рівняння 2x<small><sup>2</small></sup>-(5a-4)x-5a+4 = 0 має хоча б один корінь.</p></font>
+			<label>
+				Відповідь:
+					<input type = text name = "answ2" />
+					</label>
+					<br />
+					<br />
+					<p><font face="Georgia" size = "+2">  4) Знайдіть усі значення а, при яких функція y = 4x<small><sup>2</small></sup>+5x-a набуває додатніх значень:</p></font>
+					<label>
+					Відповідь:
+					<input type = text name = "answ3" />
+					</label>
+					<br />
+					<br />
+					<p><font face="Georgia" size = "+2">  5) Знайдіть усі значення а, при яких функція y = (a+2)x<small><sup>2</small></sup>+4x-5 набуває від'ємних значень:</p></font>
+					<label>
+						Відповідь:
+					<input type = text name = "answ4" />
+					</label>
+					<br />
+					<br />
+					<p><font face="Georgia" size = "+2">  6) Знайдіть усі значення а, при яких нерівність x<small><sup>2</small></sup>-2x+3а-1 < 0 не має розв'язків:</p></font>
+					<label>
+						Відповідь:
+					<input type = text name = "answ5" />
+					</label>
+					<br />
+					<br />	
+					<p><font face="Georgia" size = "+2">  7) Знайдіть усі значення а, при яких нерівність виконується для всіх дійсних значень х: x<small><sup>2</small></sup>+6x-a > 0.</p></font>
+					<label>
+					Відповідь:
+					<input type = text name = "answ6" />
+					</label>
+					<br />
+					<br />	
+			<input type="button" class="btn btn-success" id="calc" value="Перевірити!">
+			Ваш результат:
+			<input type="text" name="result" readonly>
+			<br />
+</div>
+			<p><font class = "dopomoga"><h1>Потрiбна допомога? Скрипт тобi допоможе!</h1></font></p>
+			<br />
+			<br />
+			<p><font class = "input" face="Georgia"><h1>Введiть перший коефiцiєнт:</font></h1></p>
+			<input class = "input1" type="text" name="oldest">
+			<br /> 
+			<p><font class = "input" face="Georgia"><h1>Введiть другий коефiцiєнт:</font></h1></p>
+			<input class = "input1" type="text" name="old">
+			<br />
+			<p><font class = "input" face="Georgia"><h1>Введiть вільний член:</font></h1></p>
+			<input class = "input1" type="text" name="free">
+			<br />
+			<input  class = "input2" type="button" id="draw" name = "answer" value="Скласти формулу">
+			<br />
+			<input class="output" type="text" name="ok" readonly>
+			<br />
+					<h1>Коренi:</h1>
+					<br />
+					<input class="output" type="text" name="roots" readonly>
+ 		</form>
+ 		<br />
+	<script src="quadraticscript.js">
+		</script>
+	</font></p>
+		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <br />
+    <script src="comments.js"></script>
+    <div class="container">
+    	<div class="row">
+    		<div class="col-lg-12">
+    			<h2 class="text-center">Маєш якусь думку? Подiлися нею з нами!</h2>
+    			<br />
+    		</div>
+
+    		<div class="col-lg-4">
+    			<div id = "comment-field"></div>
+    		</div>
+    		<div class="col-lg-4">
+    			<form>
+    				<div class="form-group">
+    					<label for="comment-name">Ваше iм`я:</label>
+    					<input type="name" class="form-control" id = "comment-name" placeholder="Your name">
+    				</div>
+
+    				<div class="form-group">
+    					<label for="comment-body">Ваш коментар:</label>
+    					<input type="name" class="form-control" id = "comment-body" placeholder="Your comment">
+    				</div>
+
+    				<div class="form-group text-center">
+    					<button type="submit" id="comment-add" class="btn btn-primary">Надiслати!</button>
+    				</div>
+    			</form>
+    		</div>
+    	</div>
+    </div>
+</body>
+</html>
